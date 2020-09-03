@@ -1,0 +1,34 @@
+{
+	"name": "ashenempires_bot",
+	"version": "1.0.0",
+	"description": "Discord Bot for sending server wide messages to Discord",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jeffbeagley/ashenempires_bot.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/jeffbeagley/ashenempires_bot/issues"
+	},
+	"homepage": "https://github.com/jeffbeagley/ashenempires_bot#readme",
+	"dependencies": {
+		"discord.js": "^12.3.1",
+		"dotenv": "^8.2.0",
+		"mssql": "^6.2.1"
+	},
+	"prettier": {
+		"tabWidth": 4,
+		"bracketSpacing": false,
+		"singleQuote": true,
+		"printWidth": 999999,
+		"useTabs": true,
+		"semi": false,
+		"arrowParens": "always",
+		"proseWrap": "never"
+	}
+}
